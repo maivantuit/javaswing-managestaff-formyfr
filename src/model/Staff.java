@@ -24,7 +24,7 @@ public class Staff {
     private static String manv;
     private String ho;
     private String ten;
-    private Date dob;
+    private Date dob; // changed git time 2
     private String sex;
     private String CMND;
     private String pw;
