@@ -37,6 +37,7 @@ public class Staff {
             String connectionURL = "jdbc:jtds:sqlserver://localhost:1433;databaseName=QLNS;integratedSecurity=true";
             con = DriverManager.getConnection(connectionURL);
             System.out.println("conneted");
+            System.out.println("connection success");
         } catch (ClassNotFoundException e) {
             System.out.println("Loi nap driver and connec: " + e.getMessage());
         } catch (SQLException e) {
