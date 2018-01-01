@@ -45,7 +45,7 @@ public class DonVi {
         } catch (SQLException e) {
             System.out.println("Loi nap d and c 2:" + e.getMessage());
         } catch (Exception e) {
-            System.out.println("loi nap 3" + e.getMessage());
+            System.out.println("Error exeption general: " + e.getMessage());
         }
         Vector<String> ds = new Vector<>();
         try {
